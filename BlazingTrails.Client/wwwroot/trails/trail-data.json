@@ -26,7 +26,7 @@
     "id": 2,
     "image": "trails/2.jpeg",
     "name": "Woodland Walk",
-    "location": "Nottingham, UK",
+    "location": "London, UK",
     "timeInMinutes": 80,
     "length": 4,
     "description": "Lots of tall trees and bubbling streams. ➥A very calming hike.",
@@ -38,12 +38,12 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "image": "trails/3.jpeg",
     "name": "Forest Hiking",
     "location": "Nottingham, UK",
     "timeInMinutes": 50,
-    "length": 4,
+    "length": 2,
     "description": "Lots of tall trees and bubbling streams. A very calming hike.",
     "route": [
       {
@@ -52,6 +52,98 @@
       },
       {
         "stage": 2,
+        "description": "The trail finishes at the end of the valley."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "trails/4.jpeg",
+    "name": "Ramble Ranch",
+    "location": "Munich, Germany",
+    "timeInMinutes": 120,
+    "length": 9,
+    "description": "A really nice walk in some very scenic countryside.",
+    "route": [
+      {
+        "stage": 1,
+        "description": "Follow the path to the fork and go left."
+      },
+      {
+        "stage": 2,
+        "description": "Cross the bridge and turn right."
+      },
+      {
+        "stage": 3,
+        "description": "The trail finishes at the end of the valley."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "trails/5.jpeg",
+    "name": "Country Huts",
+    "location": "Leizpig, Germany",
+    "timeInMinutes": 89,
+    "length": 3,
+    "description": "A really nice walk in some very scenic countryside.",
+    "route": [
+      {
+        "stage": 1,
+        "description": "Follow the path to the fork and go left."
+      },
+      {
+        "stage": 2,
+        "description": "Cross the bridge and turn right."
+      },
+      {
+        "stage": 3,
+        "description": "The trail finishes at the end of the valley."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "image": "trails/2.jpeg",
+    "name": "Effel Tower Tours",
+    "location": "Paris, France",
+    "timeInMinutes": 145,
+    "length": 12,
+    "description": "A really nice walk in some very scenic countryside.",
+    "route": [
+      {
+        "stage": 1,
+        "description": "Follow the path to the fork and go left."
+      },
+      {
+        "stage": 2,
+        "description": "Cross the bridge and turn right."
+      },
+      {
+        "stage": 3,
+        "description": "The trail finishes at the end of the valley."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "image": "trails/4.jpeg",
+    "name": "Pig County",
+    "location": "Leeds, Uk",
+    "timeInMinutes": 182,
+    "length": 18,
+    "description": "A really nice walk in some very scenic countryside.",
+    "route": [
+      {
+        "stage": 1,
+        "description": "Follow the path to the fork and go left."
+      },
+      {
+        "stage": 2,
+        "description": "Cross the bridge and turn right."
+      },
+      {
+        "stage": 3,
         "description": "The trail finishes at the end of the valley."
       }
     ]
