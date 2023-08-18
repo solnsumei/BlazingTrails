@@ -16,11 +16,18 @@
                 @Trail.Length km
             </span>
         </div>
+        <button class="btn btn-primary" title="View" onclick="@(async () => await OnSelected.InvokeAsync(Trail))">
+            <i class="bi bi-binoculars"></i>
+            View
+        </button>
     </div>
 </div>
 
 @code {
     [Parameter, EditorRequired]
     public Trail Trail { get; set; } = default!;
+
+    [Parameter]
+    public EventCallback<Trail> OnSelected { get; set; }
 }
 
